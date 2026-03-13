@@ -30,4 +30,6 @@ Games use a fixed-interval game loop (`setInterval`) with separate `update()` (s
 
 - GitHub repo: https://github.com/davethio/ClaudeCodeProject
 - Branch: `master`
-- Commit all changes with descriptive messages and push to GitHub regularly.
+- **All changes must be committed to Git with clear, descriptive commit messages.** Do not leave work uncommitted. Every meaningful change — new features, bug fixes, refactors, config updates — should be its own commit.
+- **Push to GitHub regularly** to ensure the project status and completed work are always preserved on the remote. Push after each logical unit of work, not just at the end of a session.
+- Stage specific files by name rather than using `git add -A` or `git add .`.
